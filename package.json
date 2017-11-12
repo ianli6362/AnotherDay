@@ -1,0 +1,19 @@
+{
+  "name": "another-day",
+  "version": "1.0.0",
+  "description": "After all tomorrow is another day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianli6362/AnotherDay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianli6362/AnotherDay/issues"
+  },
+  "homepage": "https://github.com/ianli6362/AnotherDay#readme"
+}
