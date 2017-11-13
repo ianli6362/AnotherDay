@@ -10,7 +10,7 @@ const styles = {
     background: {
         backgroundColor: '#f3f3f3',
         height: 1000,
-        width: '1000'
+        minWidth: 800
     },
     container: {
         margin: 0
@@ -26,13 +26,13 @@ class App extends React.Component {
             <div style={styles.background}>
                 <NavBar></NavBar>
                 <Grid container spacing={0}>
-                    <Grid item xs={2.5}>
-                        <ModuleBlock width="250px" height="850px">
+                    <Grid item lg={3}>
+                        <ModuleBlock width="88%" height="850px">
                             <ProfileBar />
                         </ModuleBlock>
                     </Grid>
-                    <Grid item xs={9.5}>
-                        <ModuleBlock width="1170px" height="240px">
+                    <Grid item xs={9}>
+                        <ModuleBlock width="88%" height="240px">
                             sdfdsf
                         </ModuleBlock>
                     </Grid>

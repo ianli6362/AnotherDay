@@ -6,8 +6,7 @@ const styles = theme => ({
     root: {
         backgroundColor: '#ffffff',
         borderRadius: 10,
-        marginTop: 18,
-        marginLeft: 18,
+        margin: 10
     }
 });
 
